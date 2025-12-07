@@ -16,6 +16,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { colors } from '../theme';
+import { getImagePath } from '../utils/paths';
 
 const Navbar: React.FC = () => {
   const navigate = useNavigate();
@@ -97,7 +98,7 @@ const Navbar: React.FC = () => {
             }}
           >
             <img
-              src="/images/logo.png"
+              src={getImagePath('images/logo.png')}
               alt="Logo"
               style={{
                 height: '50px',

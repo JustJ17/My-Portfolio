@@ -3,6 +3,7 @@ import { Card, CardMedia, CardContent, Typography, Button, Box } from '@mui/mate
 import { useNavigate } from 'react-router-dom';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { colors } from '../theme';
+import { getImagePath } from '../utils/paths';
 
 export interface ProjectCardProps {
   id: string;
@@ -41,7 +42,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ id, title, description, image
       <CardMedia
         component="img"
         height="250"
-        image={image}
+        image={getImagePath(image)}
         alt={title}
         sx={{
           objectFit: 'cover',

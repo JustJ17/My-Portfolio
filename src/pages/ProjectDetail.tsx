@@ -15,6 +15,7 @@ import LaunchIcon from '@mui/icons-material/Launch';
 import LinkIcon from '@mui/icons-material/Link';
 import { colors } from '../theme';
 import { projects } from '../data/projectsData';
+import { getImagePath } from '../utils/paths';
 
 const ProjectDetail: React.FC = () => {
   const { projectId } = useParams<{ projectId: string }>();
@@ -272,7 +273,7 @@ const ProjectDetail: React.FC = () => {
                   }}
                 >
                   <img
-                    src={image}
+                    src={getImagePath(image)}
                     alt={`${project.title} screenshot ${index + 1}`}
                     loading="lazy"
                     style={{ width: '100%', height: 'auto', display: 'block' }}

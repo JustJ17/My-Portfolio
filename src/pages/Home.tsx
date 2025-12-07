@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
 import DownloadIcon from '@mui/icons-material/Download';
 import { colors } from '../theme';
+import { getImagePath } from '../utils/paths';
 
 const Home: React.FC = () => {
   return (
@@ -55,7 +56,7 @@ const Home: React.FC = () => {
                 }}
               >
                 <img
-                  src="/images/profile-photo.jpg"
+                  src={getImagePath('images/profile-photo.jpg')}
                   alt="Profile"
                   style={{
                     width: '100%',
