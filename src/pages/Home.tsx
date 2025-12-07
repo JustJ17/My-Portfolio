@@ -284,7 +284,7 @@ const Home: React.FC = () => {
                 variant="contained"
                 size="large"
                 startIcon={<DownloadIcon />}
-                href={getImagePath('resume.pdf')}
+                href={getImagePath('Mohamed Gamal Resume.pdf')}
                 download
                 sx={{
                   backgroundColor: colors.primary,
