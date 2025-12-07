@@ -14,7 +14,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router>
+      <Router basename="/My-Portfolio">
         <Box sx={{ minHeight: '100vh', margin: 0, padding: 0 }}>
           <Navbar />
           <Routes>
