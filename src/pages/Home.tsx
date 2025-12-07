@@ -365,7 +365,7 @@ const Home: React.FC = () => {
                 backgroundClip: 'text',
               }}
             >
-              Your Name
+              Mohamed Gamal
             </Typography>
             <Typography
               variant="body2"
@@ -449,7 +449,7 @@ const Home: React.FC = () => {
                 opacity: 0.7,
               }}
             >
-              © {new Date().getFullYear()} Your Name
+              © {new Date().getFullYear()} Mohamed Gamal
             </Typography>
             <Typography
               variant="body2"

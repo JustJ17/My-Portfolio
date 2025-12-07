@@ -7,8 +7,10 @@ import {
   Button,
   Alert,
   CircularProgress,
+  IconButton,
 } from '@mui/material';
 import SendIcon from '@mui/icons-material/Send';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import emailjs from '@emailjs/browser';
@@ -332,7 +334,7 @@ const Contact: React.FC = () => {
             sx={{
               color: colors.lightCyan,
               fontSize: '1rem',
-              mb: 1,
+              mb: 2,
             }}
           >
             Or reach me directly at:
@@ -346,6 +348,8 @@ const Contact: React.FC = () => {
               fontWeight: 600,
               textDecoration: 'none',
               transition: 'all 0.3s ease',
+              display: 'block',
+              mb: 2,
               '&:hover': {
                 color: 'white',
                 textDecoration: 'underline',
@@ -354,6 +358,35 @@ const Contact: React.FC = () => {
           >
             mohamedgamal.shafie@gmail.com
           </Typography>
+
+          {/* LinkedIn Link */}
+          <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 1 }}>
+            <Typography
+              variant="body1"
+              sx={{
+                color: colors.lightCyan,
+                fontSize: '1rem',
+              }}
+            >
+              Connect with me on:
+            </Typography>
+            <IconButton
+              component="a"
+              href="https://www.linkedin.com/in/mohamed-147-shafei/"
+              target="_blank"
+              rel="noopener noreferrer"
+              sx={{
+                color: colors.brightCyan,
+                transition: 'all 0.3s ease',
+                '&:hover': {
+                  color: 'white',
+                  transform: 'scale(1.2)',
+                },
+              }}
+            >
+              <LinkedInIcon sx={{ fontSize: '2rem' }} />
+            </IconButton>
+          </Box>
         </Box>
       </Container>
     </Box>
