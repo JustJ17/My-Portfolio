@@ -55,7 +55,7 @@ const Home: React.FC = () => {
                 }}
               >
                 <img
-                  src="/src/assets/images/profile-photo.jpg"
+                  src="/images/profile-photo.jpg"
                   alt="Profile"
                   style={{
                     width: '100%',

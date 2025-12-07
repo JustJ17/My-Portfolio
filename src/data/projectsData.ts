@@ -18,7 +18,7 @@ export const projects: Project[] = [
     id: 'bash-dbms',
     title: 'Bash Database Management System',
     description: 'A database management system that simulates databases and tables using directories and files, providing basic CRUD operations with datatype validation and primary key constraints.',
-    image: '/src/assets/images/projects/bash-dbms.png',
+    image: '/images/projects/bash-dbms.png',
     fullDescription: `
       This project simulates databases and tables using directories and files, providing a complete database management experience through a command-line interface.
       
@@ -35,15 +35,15 @@ export const projects: Project[] = [
     technologies: ['Bash', 'Shell Scripting', 'Linux', 'File Systems'],
     githubLink: 'https://github.com/JustJ17/Bash-DBMS/tree/main',
     gallery: [
-      '/src/assets/images/projects/bash-dbms.png',
-      '/src/assets/images/projects/cli_ascii.png',
+      '/images/projects/bash-dbms.png',
+      '/images/projects/cli_ascii.png',
     ],
   },
   {
     id: 'crack-n-stack',
     title: 'Crack-n-Stack (Retro Block Breaker Game)',
     description: 'A classic breakout-style arcade game where you control a paddle to guide the ball and smash through rows of bricks. Features multiple levels, power-ups, and a leaderboard system.',
-    image: '/src/assets/images/projects/crack-n-stack.png',
+    image: '/images/projects/crack-n-stack.png',
     fullDescription: `
       Take control of the paddle and guide the ball to smash through rows of bricks! Break them all to clear the stage and advance to the next level. Watch your angles, time your moves, and don't let the ball slip past your paddle.
       
@@ -60,14 +60,14 @@ export const projects: Project[] = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'OOP', 'Game Development'],
     githubLink: 'https://github.com/JustJ17/Crack-n-Stack',
     gallery: [
-      '/src/assets/images/projects/crack-n-stack.jpg',
+      '/images/projects/crack-n-stack.jpg',
     ],
   },
   {
     id: 'xonix-game',
     title: 'Xonix Game (Assembly)',
     description: 'A complete arcade game built entirely in Assembly Language, featuring VGA graphics, keyboard input, collision detection, and score tracking.',
-    image: '/src/assets/images/projects/xonix-game.jpg',
+    image: '/images/projects/xonix-game.jpg',
     fullDescription: `
       Created the entire Xonix game using Assembly Language, demonstrating low-level programming expertise and understanding of computer architecture.
       
@@ -83,14 +83,14 @@ export const projects: Project[] = [
     technologies: ['Assembly', 'MASM', 'BIOS Interrupts', 'VGA Graphics'],
     githubLink: 'https://github.com/JustJ17/XONIX-using-asm?tab=readme-ov-file',
     gallery: [
-      '/src/assets/images/projects/xonix-game.jpg',
+      '/images/projects/xonix-game.jpg',
     ],
   },
   {
     id: 'snakeopoly',
     title: 'Monopoly Snake and Ladders',
     description: 'A university OOP project that combines Snakes & Ladders with Monopoly mechanics, where players encounter ladders, snakes, and unique cards that affect their progress.',
-    image: '/src/assets/images/projects/snakeoply.png',
+    image: '/images/projects/snakeoply.png',
     fullDescription: `
       Snakeopoly is a university project built for an Object-Oriented Programming (OOP) course, showcasing strong understanding of OOP principles and game design.
       
@@ -112,16 +112,16 @@ export const projects: Project[] = [
     technologies: ['Java', 'OOP', 'Game Design', 'Swing GUI'],
     githubLink: 'https://github.com/JustJ17/Snakeopoly/tree/main#',
     gallery: [
-      '/src/assets/images/projects/snakeoply.png',
-      '/src/assets/images/projects/snakoply1.png',
-      '/src/assets/images/projects/snakoply2.png',
+      '/images/projects/snakeoply.png',
+      '/images/projects/snakoply1.png',
+      '/images/projects/snakoply2.png',
     ],
   },
   {
     id: 'personal-finance-manager',
     title: 'Personal Finance Manager',
     description: 'A Python console application for tracking income and expenses, generating financial reports, setting savings goals, and managing recurring transactions.',
-    image: '/src/assets/images/projects/PythonFinance2.png',
+    image: '/images/projects/PythonFinance2.png',
     fullDescription: `
       The Personal Finance Manager is a comprehensive Python console application that helps users take control of their financial life.
       
@@ -146,15 +146,15 @@ export const projects: Project[] = [
     technologies: ['Python', 'File I/O', 'Data Validation', 'CLI Design'],
     githubLink: 'https://github.com/JustJ17/Personal-Finance-Manager-using-Python',
     gallery: [
-      '/src/assets/images/projects/PythonFinance.png',
-      '/src/assets/images/projects/PythonFinance2.png',
+      '/images/projects/PythonFinance.png',
+      '/images/projects/PythonFinance2.png',
     ],
   },
   {
     id: 'pid-controller-kit',
     title: 'PID Controller Learning Kit',
     description: 'A graduation project featuring a hands-on PID controller learning kit with custom mechanical design, Arduino control, and desktop application for real-time tuning and visualization.',
-    image: '/src/assets/images/projects/PLC5.jpeg',
+    image: '/images/projects/PLC5.jpeg',
     fullDescription: `
       A comprehensive PID controller learning kit developed as my graduation project at Cairo University Faculty of Engineering.
       
@@ -182,19 +182,19 @@ export const projects: Project[] = [
     `,
     technologies: ['Arduino', 'C#', '.NET', 'SolidWorks', 'PID Control', '3D Printing', 'Sheet Metal' ],
     gallery: [
-      '/src/assets/images/projects/PLC1.jpeg',
-      '/src/assets/images/projects/PLC2.png',
-      '/src/assets/images/projects/PLC3.png',
-      '/src/assets/images/projects/PLC4.jpeg',
-      '/src/assets/images/projects/PLC5.jpeg',
-      '/src/assets/images/projects/PLC6.png',
+      '/images/projects/PLC1.jpeg',
+      '/images/projects/PLC2.png',
+      '/images/projects/PLC3.png',
+      '/images/projects/PLC4.jpeg',
+      '/images/projects/PLC5.jpeg',
+      '/images/projects/PLC6.png',
     ],
   },
   {
     id: 'portfolio-website',
     title: 'Personal Portfolio Website',
     description: 'A modern, responsive portfolio website built with React and TypeScript, featuring smooth animations, project showcases, and an integrated contact form with email functionality.',
-    image: '/src/assets/images/projects/PortfolioHomepage.png',
+    image: '/images/projects/PortfolioHomepage.png',
     fullDescription: `
       A fully responsive personal portfolio website designed to showcase my projects, skills, and professional experience in an elegant and interactive way.
       
@@ -239,9 +239,9 @@ export const projects: Project[] = [
     githubLink: 'https://github.com/JustJ17/My_Portfolio',
     liveLink: 'https://your-portfolio-domain.com',
     gallery: [
-      '/src/assets/images/projects/Portfolio1.png',
-      '/src/assets/images/projects/Portfolio2.png',
-      '/src/assets/images/projects/Portfolio3.png',
+      '/images/projects/Portfolio1.png',
+      '/images/projects/Portfolio2.png',
+      '/images/projects/Portfolio3.png',
     ],
   },
 ];

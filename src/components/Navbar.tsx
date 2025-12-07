@@ -97,7 +97,7 @@ const Navbar: React.FC = () => {
             }}
           >
             <img
-              src="/src/assets/images/logo.png"
+              src="/images/logo.png"
               alt="Logo"
               style={{
                 height: '50px',
